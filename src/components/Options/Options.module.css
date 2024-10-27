@@ -1,0 +1,20 @@
+.box {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 5px 15px;
+  background-color: lightcoral;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: background-color 10ms ease-in-out;
+  &:hover {
+    background-color: darkorchid;
+  }
+}

@@ -1,0 +1,37 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accent {
+  composes: item;
+  font-weight: bold;
+}
+
+.green_accent {
+  composes: item;
+  color: green;
+  font-weight: bold;
+}
+
+.green {
+  composes: item;
+  color: green;
+}
+
+.yellow {
+  composes: item;
+  color: yellow;
+}
+
+.red {
+  composes: item;
+  color: red;
+}
